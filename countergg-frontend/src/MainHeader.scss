@@ -1,0 +1,16 @@
+.MainHeader {
+    display: flex;
+    height: 50px;
+    background-color: grey;
+    .LeftSide {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        padding-left: 8em;
+    }
+    .RightSide {
+        display: flex;
+        align-items: center;
+        padding-right: 1em;
+    }
+}

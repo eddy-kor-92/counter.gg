@@ -1,0 +1,14 @@
+.HeaderMenu {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 100%;
+    // border-bottom-color: white;
+    &:hover {
+        cursor: pointer;
+        border-bottom: 3px solid;
+        border-color: white;
+        color: white;
+    }
+}
